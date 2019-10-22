@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>core/Proton.js - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Classes</li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Proton.html">Proton</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.html#addEmitter">addEmitter</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.html#addRender">addRender</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.html#amendChangeTabsBug">amendChangeTabsBug</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.html#destroy">destroy</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.html#getCount">getCount</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.html#removeEmitter">removeEmitter</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.html#update">update</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Proton.Alpha.html">.Alpha</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Alpha.html#applyBehaviour">applyBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Alpha.html#destroy">destroy</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Alpha.html#initialize">initialize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Alpha.html#normalizeForce">normalizeForce</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Alpha.html#normalizeValue">normalizeValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Alpha.html#reset">reset</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Proton.Attraction.html">.Attraction</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Attraction.html#applyBehaviour">applyBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Attraction.html#destroy">destroy</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Attraction.html#initialize">initialize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Attraction.html#normalizeForce">normalizeForce</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Attraction.html#normalizeValue">normalizeValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Attraction.html#reset">reset</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Proton.Collision.html">.Collision</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Collision.html#applyBehaviour">applyBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Collision.html#destroy">destroy</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Collision.html#initialize">initialize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Collision.html#normalizeForce">normalizeForce</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Collision.html#normalizeValue">normalizeValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Collision.html#reset">reset</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Proton.Color.html">.Color</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Color.html#applyBehaviour">applyBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Color.html#destroy">destroy</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Color.html#initialize">initialize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Color.html#normalizeForce">normalizeForce</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Color.html#normalizeValue">normalizeValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Color.html#reset">reset</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Proton.CrossZone.html">.CrossZone</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.CrossZone.html#applyBehaviour">applyBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.CrossZone.html#destroy">destroy</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.CrossZone.html#initialize">initialize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.CrossZone.html#normalizeForce">normalizeForce</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.CrossZone.html#normalizeValue">normalizeValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.CrossZone.html#reset">reset</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Proton.Force.html">.Force</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Force.html#applyBehaviour">applyBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Force.html#destroy">destroy</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Force.html#initialize">initialize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Force.html#normalizeForce">normalizeForce</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Force.html#normalizeValue">normalizeValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Force.html#reset">reset</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Proton.Gravity.html">.Gravity</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Gravity.html#applyBehaviour">applyBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Gravity.html#reset">reset</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Proton.GravityWell.html">.GravityWell</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.GravityWell.html#applyBehaviour">applyBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.GravityWell.html#destroy">destroy</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.GravityWell.html#initialize">initialize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.GravityWell.html#normalizeForce">normalizeForce</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.GravityWell.html#normalizeValue">normalizeValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.GravityWell.html#reset">reset</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Proton.Pool.html">.Pool</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Proton.RandomDrift.html">.RandomDrift</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.RandomDrift.html#applyBehaviour">applyBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.RandomDrift.html#destroy">destroy</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.RandomDrift.html#initialize">initialize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.RandomDrift.html#normalizeForce">normalizeForce</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.RandomDrift.html#normalizeValue">normalizeValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.RandomDrift.html#reset">reset</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Proton.Rate.html">.Rate</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Proton.Repulsion.html">.Repulsion</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Repulsion.html#applyBehaviour">applyBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Repulsion.html#reset">reset</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Proton.Rotate.html">.Rotate</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Rotate.html#applyBehaviour">applyBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Rotate.html#destroy">destroy</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Rotate.html#initialize">initialize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Rotate.html#normalizeForce">normalizeForce</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Rotate.html#normalizeValue">normalizeValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Rotate.html#reset">reset</a></span></li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="Proton.Scale.html">.Scale</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Scale.html#applyBehaviour">applyBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Scale.html#destroy">destroy</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Scale.html#initialize">initialize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Scale.html#normalizeForce">normalizeForce</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Scale.html#normalizeValue">normalizeValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Scale.html#reset">reset</a></span></li><li class="nav-heading">Namespaces</li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="Proton.DomUtil.html">.DomUtil</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="Proton.Util.html">.Util</a></span></li><li class="nav-heading"><span class="nav-item-type type-namespace">N</span><span class="nav-item-name"><a href="Proton.WebGLUtil.html">.WebGLUtil</a></span></li><li class="nav-heading">Interfaces</li><li class="nav-heading"><span class="nav-item-type type-interface">I</span><span class="nav-item-name"><a href="Proton.Behaviour.html">.Behaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Behaviour.html#applyBehaviour">applyBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Behaviour.html#destroy">destroy</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Behaviour.html#initialize">initialize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Behaviour.html#normalizeForce">normalizeForce</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Behaviour.html#normalizeValue">normalizeValue</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="Proton.Behaviour.html#reset">reset</a></span></li><li class="nav-heading"><a href="global.html">Globals</a></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#addBehaviour">addBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#addInitialize">addInitialize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#addSelfBehaviour">addSelfBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#addSelfInitialize">addSelfInitialize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#destroy">destroy</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#emit">emit</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#removeAllBehaviours">removeAllBehaviours</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#removeAllParticles">removeAllParticles</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#removeBehaviour">removeBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#removeInitialize">removeInitialize</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#removeInitializers">removeInitializers</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#removeSelfBehaviour">removeSelfBehaviour</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#stopEmit">stopEmit</a></span></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">core/Proton.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>(function(window, undefined) {
+    //the max particle number in pool
+    Proton.POOL_MAX = 1000;
+    Proton.TIME_STEP = 60;
+    Proton.USE_CLOCK = false;
+    //1:100
+    Proton.MEASURE = 100;
+    Proton.EULER = 'euler';
+    Proton.RK2 = 'runge-kutta2';
+    Proton.RK4 = 'runge-kutta4';
+    Proton.VERLET = 'verlet';
+
+    Proton.PARTICLE_CREATED = 'partilcleCreated';
+    Proton.PARTICLE_UPDATE = 'partilcleUpdate';
+    Proton.PARTICLE_SLEEP = 'particleSleep';
+    Proton.PARTICLE_DEAD = 'partilcleDead';
+    Proton.PROTON_UPDATE = 'protonUpdate';
+    Proton.PROTON_UPDATE_AFTER = 'protonUpdateAfter';
+    Proton.EMITTER_ADDED = 'emitterAdded';
+    Proton.EMITTER_REMOVED = 'emitterRemoved';
+
+    Proton.amendChangeTabsBug = true;
+    Proton.TextureBuffer = {};
+    Proton.TextureCanvasBuffer = {};
+
+    /**
+     * The constructor to add emitters
+     *
+     * @constructor Proton
+     *
+     * @todo proParticleCount is not in use
+     * @todo add more documentation of the single properties and parameters
+     *
+     * @param {Number} [proParticleCount] not in use?
+     * @param {Number} [integrationType=Proton.EULER]
+     *
+     * @property {String} [integrationType=Proton.EULER]
+     * @property {Array} emitters   All added emitter
+     * @property {Array} renderers  All added renderer
+     * @property {Number} time      The active time
+     * @property {Number} oldtime   The old time
+     */
+    function Proton(proParticleCount, integrationType) {
+        this.integrationType = Proton.Util.initValue(integrationType, Proton.EULER);
+        this.emitters = [];
+        this.renderers = [];
+        this.time = 0;
+        this.oldTime = 0;
+
+        Proton.pool = new Proton.Pool(100);
+        Proton.integrator = new Proton.NumericalIntegration(this.integrationType);
+    }
+
+
+    Proton.prototype = {
+        /**
+         * add a type of Renderer
+         *
+         * @method addRender
+         * @memberof Proton
+         * @instance
+         *
+         * @param {Renderer} render
+         */
+        addRender: function(render) {
+            render.proton = this;
+            this.renderers.push(render.proton);
+        },
+
+        /**
+         * add the Emitter
+         *
+         * @method addEmitter
+         * @memberof Proton
+         * @instance
+         *
+         * @param {Emitter} emitter
+         */
+        addEmitter: function(emitter) {
+            this.emitters.push(emitter);
+            emitter.parent = this;
+
+            this.dispatchEvent(Proton.EMITTER_ADDED, emitter);
+        },
+
+        /**
+         * Removes an Emitter
+         *
+         * @method removeEmitter
+         * @memberof Proton
+         * @instance
+         *
+         * @param {Proton.Emitter} emitter
+         */
+        removeEmitter: function(emitter) {
+            var index = this.emitters.indexOf(emitter);
+            this.emitters.splice(index, 1);
+            emitter.parent = null;
+
+            this.dispatchEvent(Proton.EMITTER_REMOVED, emitter);
+        },
+
+        /**
+         * Updates all added emitters
+         *
+         * @method update
+         * @memberof Proton
+         * @instance
+         */
+        update: function() {
+            this.dispatchEvent(Proton.PROTON_UPDATE);
+
+            if (Proton.USE_CLOCK) {
+                if (!this.oldTime)
+                    this.oldTime = new Date().getTime();
+
+                var time = new Date().getTime();
+                this.elapsed = (time - this.oldTime) / 1000;
+                if (Proton.amendChangeTabsBug)
+                    this.amendChangeTabsBug();
+                this.oldTime = time;
+            } else {
+                this.elapsed = 0.0167;
+            }
+
+            if (this.elapsed > 0) {
+                for (var i = 0; i &lt; this.emitters.length; i++) {
+                    this.emitters[i].update(this.elapsed);
+                }
+            }
+
+            this.dispatchEvent(Proton.PROTON_UPDATE_AFTER);
+        },
+
+        /**
+         * @todo add description
+         *
+         * @method amendChangeTabsBug
+         * @memberof Proton
+         * @instance
+         */
+        amendChangeTabsBug: function() {
+            if (this.elapsed > .5) {
+                this.oldTime = new Date().getTime();
+                this.elapsed = 0;
+            }
+        },
+
+        /**
+         * Counts all particles from all emitters
+         *
+         * @method getCount
+         * @memberof Proton
+         * @instance
+         */
+        getCount: function() {
+            var total = 0;
+            var length = this.emitters.length;
+            for (var i = 0; i &lt; length; i++) {
+                total += this.emitters[i].particles.length;
+            }
+            return total;
+        },
+
+        /**
+         * Destroys everything related to this Proton instance. This includes all emitters, and all properties
+         *
+         * @method destroy
+         * @memberof Proton
+         * @instance
+         */
+        destroy: function() {
+            var length = this.emitters.length;
+            for (var i = 0; i &lt; length; i++) {
+                this.emitters[i].destroy();
+                delete this.emitters[i];
+            }
+
+            this.emitters = [];
+            this.time = 0;
+            this.oldTime = 0;
+            Proton.pool.release();
+        }
+    };
+
+    window.Proton = Proton;
+})(window);
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Tue Oct 22 2019 17:03:41 GMT+0200 (Central European Summer Time) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>
